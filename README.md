@@ -140,7 +140,7 @@ python main.py
 
 ---
 
-# Special Thanks
+# Project Background / Personal Motivation
 
 - This project was built based on my practical need for automated duplicate issue management.
 - I developed it to improve QA workflow quality and save valuable time.
