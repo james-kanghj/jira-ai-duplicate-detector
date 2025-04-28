@@ -1,0 +1,22 @@
+# Python 기본
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+.idea/
+.vscode/
+.DS_Store
+
+# 민감 파일
+config.py
+.env
+
+# 캐시 파일
+issue_embeddings_cache.json
+
+# 로그 파일
+logs/
+*.log
