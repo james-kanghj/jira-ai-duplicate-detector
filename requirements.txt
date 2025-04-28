@@ -3,3 +3,6 @@ requests
 scikit-learn
 dotenv
 tiktoken
+pandas
+numpy
+openpyxl

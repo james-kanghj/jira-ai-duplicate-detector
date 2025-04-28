@@ -20,3 +20,10 @@ issue_embeddings_cache.json
 # 로그 파일
 logs/
 *.log
+outputs/
+*.xlsx
+*.csv
+*.json
+*.jsonl
+*.jsonl.gz
+*.jsonl.gz.part
