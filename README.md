@@ -9,7 +9,7 @@
 - Retrieve Jira issues in bulk via API
 - Compare existing issues without creating new ones to detect similarity
 - Use OpenAI `text-embedding-ada-002` model to embed title + description
-- Detect duplicate issues based on a similarity threshold of **0.93 or higher**
+- Detect duplicate issues based on a similarity threshold of **0.98 or higher**
 - Output duplicate issue pairs to console + save to log file + export to Excel (.xlsx)
 - Display the number of compared pairs, AI usage statistics, and estimated costs
 - Exclude issues containing specific keywords (e.g., [UI])
@@ -75,7 +75,7 @@ python main.py
 2. Exclude issues containing [UI] in their summary
 3. Generate embeddings based on full text (title + description)
 4. Calculate cosine similarity between issues
-5. Filter pairs with similarity greater than or equal to 0.93
+5. Filter pairs with similarity greater than or equal to 0.98
 6. Output results to console, log file, and Excel file
 
 ---
@@ -83,7 +83,7 @@ python main.py
 ## 📋 Example Output
 
 ```plaintext
-[Similarity Results (threshold: 0.93)]
+[Similarity Results (threshold: 0.98)]
 - [YOUR-388] TitleA ↔ [YOUR-386] TitleB (Similarity: 0.94)
 - [YOUR-2175] TitleC ↔ [YOUR-2037] TitleD (Similarity: 0.95)
 ...
